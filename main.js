@@ -29,7 +29,9 @@ function draw(){
 }
 
 function check_sketch(){
-    timer_counter = timer_counter+1;
+    if(0 == 0){
+        timer_counter++
+    }
     document.getElementById('Timer').innerHTML = "Timer : " + timer_counter;
     console.log(timer_counter)
     if(timer_counter > 10000){
