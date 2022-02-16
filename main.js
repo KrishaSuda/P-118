@@ -34,9 +34,9 @@ function check_sketch(){
     console.log(timer_counter)
     if(timer_counter > 10000){
         timer_counter = 0;
-        timer_check = completed;
+        timer_check = "completed";
     }
-    if(timer_check == completed){
+    if(timer_check == "completed"){
         timer_check = "";
         answer_holder = "";
         updateCanvas()
